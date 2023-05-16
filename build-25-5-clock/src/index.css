@@ -1,0 +1,91 @@
+body {
+  background: #1e555c;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 75px;
+}
+.wrapper{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+}
+.header{
+  border: 2px solid #13353a;
+  border-radius: 15px;
+/*   background: #fff; */
+  margin: 5px;
+  
+}
+.main-title {
+  font-size: 40px;
+  margin: 15px;
+/*   color: #1e555c; */
+}
+.clock{
+  color: #a50f;
+  font-size: 50px;
+}
+.length-control {
+  display: inline-block;
+  width: 250px;
+}
+.btn-level {
+  display: inline-block;
+}
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#time-left {
+  font-family: digital;
+  font-size: 50px;
+}
+
+.fa-play:before {
+  content: "\f04b";
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.timer {
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 160px;
+  border-radius: 50px;
+  position: relative;
+  padding: 10px;
+}
+.footer{
+  border: 2px solid #13353a;
+  border-radius: 15px;
+/*   background: #fff; */
+  margin: 5px;
+  margin-top: 75px;
+}
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 9px;
+  font-size: 14px;
+  color: #a50f;
+}
+
+.author h5 {
+  text-decoration: none;
+  color: #13353a;
+  line-height: 26px;
+}
